@@ -17,7 +17,7 @@ public class IndexController {
 
     @RequestMapping("/hello")
     public String hello () {
-        return JSON.toJSONString("hello world");
+        return JSON.toJSONString("hello world from backend");
     }
 
 }
